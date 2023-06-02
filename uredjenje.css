@@ -1,0 +1,86 @@
+body{
+    background-color: lightcyan;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 2cm;
+    padding-right: 2cm;
+}
+
+   
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+ul li{
+    display: flex;
+    float: left ;
+    height: 45px;    
+}
+
+ul li a{
+    background: rgb(250, 216, 223);
+    border: 1px solid gray;
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: rgb(202, 117, 146);
+}
+
+
+h1{
+    background-image: url("slike/1.jpg");
+    height: 2cm;
+    background-color: rgb(250, 216, 223);
+    text-align: center;
+    color: rgb(25, 22, 70);
+}
+
+h2{
+    background-color: rgb(255, 237, 241);
+}
+
+h3{
+    background-image: url("slike/1.jpg");
+}
+
+#podnozje{
+    text-align: center;
+    background-color: pink;
+    color: rgb(175, 65, 116);
+}
+
+#treca{
+    border: 3px solid rgb(230, 121, 148);
+    background-color: rgb(247, 212, 224);;
+}
+
+table, tr, td{
+    border: 3px solid rgb(170, 66, 101);
+    background-color: rgb(245, 222, 226);
+    width: 500px;
+    height: 40px;
+}
+
+#centrirano{
+    text-align: center;
+    font-weight: bolder;
+}
+
+#tabela{ 
+    float: left;
+}
+
+
+#podaci{
+    background-color: beige;
+    border: 3px solid rgb(224, 109, 143);
+    text-align: center;
+}
+
